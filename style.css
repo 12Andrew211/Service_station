@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar .upper-part {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  background-color: #ffa500;
+  color: white;
+}
+.navbar .upper-part .change-language {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .upper-part .change-language .lang-1 {
+  color: white;
+  cursor: pointer;
+}
+.navbar .upper-part .change-language .lang-2 {
+  color: #868686;
+  cursor: pointer;
+}
+.navbar .upper-part .contacts {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .upper-part .contacts .phone-number {
+  cursor: pointer;
+}
+.navbar .upper-part .contacts .email {
+  cursor: pointer;
+}
+.navbar .lower-part {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar .lower-part .l-part {
+  width: 510px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .lower-part .l-part .logo {
+  width: 300px;
+  height: 80px;
+  text-align: center;
+}
+.navbar .lower-part .l-part .logo a {
+  text-decoration: none;
+}
+.navbar .lower-part .l-part .logo .text-logo {
+  font-size: 32px;
+  font-weight: 600;
+  color: #ffa500;
+  vertical-align: 70%;
+}
+.navbar .lower-part .l-part .vertical-line {
+  height: 60px;
+  margin: 5px;
+}
+.navbar .lower-part .l-part .location {
+  width: 260px;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.navbar .lower-part .l-part .location a {
+  text-decoration: none;
+}
+.navbar .lower-part .l-part .location .location-icon {
+  fill: #ffa500;
+  width: 20px;
+}
+.navbar .lower-part .l-part .location .location-text {
+  color: white;
+  font-size: 24px;
+}
+.navbar .lower-part .l-part .location:hover {
+  filter: brightness(70%);
+}
+.navbar .lower-part .r-part {
+  width: 540px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .lower-part .r-part .button {
+  height: 100%;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+}
+.navbar .lower-part .r-part .button a {
+  text-decoration: none;
+  color: white;
+}
+.navbar .lower-part .r-part .button:hover {
+  filter: brightness(70%);
+}
+
+/*# sourceMappingURL=style.css.map */
