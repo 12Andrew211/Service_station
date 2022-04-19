@@ -209,4 +209,62 @@ body {
   background-color: #ffa500;
 }
 
+.about-company {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.about-company .l-pr {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.about-company .l-pr .horisontal-line {
+  height: 5px;
+  width: 140px;
+  background-color: #ffa500;
+  margin: 0;
+}
+.about-company .r-pr {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-company .r-pr .block {
+  width: 200px;
+  height: 150px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about-company .r-pr .block + .bl-1 {
+  background: center url("img/img2.jpeg");
+  background-size: 120%;
+}
+.about-company .r-pr .block + .bl-2 {
+  background: center url("img/img1.jpeg");
+  background-size: 100%;
+}
+.about-company .r-pr .block .number {
+  text-align: center;
+  color: white;
+  font-size: 64px;
+  box-sizing: border-box;
+  margin: 0;
+}
+.about-company .r-pr .block .text {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  box-sizing: border-box;
+  margin: 0;
+}
+.about-company .r-pr .block + .text-1 {
+  padding: 0 auto;
+}
+
 /*# sourceMappingURL=style.css.map */
