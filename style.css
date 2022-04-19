@@ -236,10 +236,13 @@ body {
   width: 200px;
   height: 150px;
   background-color: black;
+<<<<<<< HEAD
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+=======
+>>>>>>> cdc9eda5df9450734e0c9e03a84caa8395a04ba9
 }
 .about-company .r-pr .block + .bl-1 {
   background: center url("img/img2.jpeg");
@@ -249,6 +252,7 @@ body {
   background: center url("img/img1.jpeg");
   background-size: 100%;
 }
+<<<<<<< HEAD
 .about-company .r-pr .block .number {
   text-align: center;
   color: white;
@@ -266,5 +270,7 @@ body {
 .about-company .r-pr .block + .text-1 {
   padding: 0 auto;
 }
+=======
+>>>>>>> cdc9eda5df9450734e0c9e03a84caa8395a04ba9
 
 /*# sourceMappingURL=style.css.map */
