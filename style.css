@@ -334,7 +334,7 @@ section {
   align-items: center;
   justify-content: center;
   width: 70%;
-  height: 600px;
+  height: 800px;
   background-color: #868686;
 }
 .index-2 .container .call {
@@ -347,9 +347,45 @@ section {
 .index-2 .container .call input {
   margin: 5px auto;
 }
+.index-2 .container .call .inp-call {
+  width: 400px;
+  height: 50px;
+  font-size: 32px;
+  border-radius: 10px;
+}
 .index-2 .container .choose {
   display: flex;
   flex-direction: column;
+}
+.index-2 .container .choose p {
+  font-size: 28px;
+  color: white;
+}
+.index-2 .container .choose div {
+  display: flex;
+  flex-direction: row;
+}
+.index-2 .container .choose div .inp-choose {
+  width: 25px;
+  height: 25px;
+}
+.index-2 .container .choose .lable {
+  font-size: 28px;
+  color: white;
+}
+.index-2 .container .date p {
+  font-size: 28px;
+  color: white;
+}
+.index-2 .container .date .date-date {
+  font-size: 28px;
+  border-radius: 10px;
+}
+.index-2 .container #submit {
+  width: 100px;
+  height: 25px;
+  border-radius: 10px;
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
