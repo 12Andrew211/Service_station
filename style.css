@@ -215,6 +215,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  margin-bottom: 150px;
 }
 .about-company .l-pr {
   width: 300px;
@@ -243,11 +244,11 @@ body {
 }
 .about-company .r-pr .block + .bl-1 {
   background: center url("img/img2.jpeg");
-  background-size: 120%;
+  background-size: 130%;
 }
 .about-company .r-pr .block + .bl-2 {
   background: center url("img/img1.jpeg");
-  background-size: 100%;
+  background-size: 115%;
 }
 .about-company .r-pr .block .number {
   text-align: center;
@@ -265,6 +266,10 @@ body {
 }
 .about-company .r-pr .block + .text-1 {
   padding: 0 auto;
+}
+.about-company .maps {
+  margin: 0;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
